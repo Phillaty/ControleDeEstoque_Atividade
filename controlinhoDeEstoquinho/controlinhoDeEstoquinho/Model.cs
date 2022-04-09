@@ -52,6 +52,15 @@ namespace controlinhoDeEstoquinho
             return new List<DtoProduto>(retorno);
         }
 
+        internal List<DtoVenda> GetVenda()
+        {
+            context db = new context();
+
+            List<DtoVenda> retorno = db.venda.ToList();
+
+            return new List<DtoVenda>(retorno);
+        }
+
         internal DtoUsuario GetUsuariosId(int id)
         {
             context db = new context();
@@ -116,6 +125,18 @@ namespace controlinhoDeEstoquinho
             db.SaveChanges();
         }
 
+        internal void EditProduto(DtoProduto u)
+        {
+            context db = new context();
+            DtoProduto e = db.produto.FirstOrDefault(p => p.id == u.id);
+            e.nome = u.nome;
+            e.quantidade = u.quantidade;
+            e.marca = u.marca;
+            e.preco = u.preco;
+
+            db.SaveChanges();
+        }
+
         public void DeletarUsuario(int id)
         {
             context db = new context();
@@ -131,6 +152,5 @@ namespace controlinhoDeEstoquinho
             db.produto.Remove(u);
             db.SaveChanges();
         }
-
     }
 }

@@ -145,6 +145,10 @@ namespace controlinhoDeEstoquinho
                     {
                         valorVendaInput.Text = v.valorvenda.ToString();
                     }
+                    else
+                    {
+                        valorVendaInput.Text = string.Empty;
+                    }
                 }
                 else
                 {
@@ -173,6 +177,13 @@ namespace controlinhoDeEstoquinho
             nomeInput.Text = u.nome;
             valorCustoInput.Text = u.preco.ToString();
             qtdEstoqueInput.Text = u.quantidade.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Inicio f = new Inicio();
+            f.Show();
         }
     }
 }

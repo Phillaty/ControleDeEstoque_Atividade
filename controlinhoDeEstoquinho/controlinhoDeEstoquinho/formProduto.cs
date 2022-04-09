@@ -53,6 +53,8 @@ namespace controlinhoDeEstoquinho
             button2.Enabled = false;
             button3.Enabled = false;
             button4.Enabled = false;
+
+            error.Text = string.Empty;
         }
 
         //Salvar
@@ -65,7 +67,16 @@ namespace controlinhoDeEstoquinho
             u.marca = marcaInput.Text;
             u.preco = decimal.Parse(precoInput.Text);
 
-            model.setProduto(u);
+            if(IdInput.Text == String.Empty)
+            {
+                model.setProduto(u);
+            }
+            else
+            {
+                u.id = int.Parse(IdInput.Text);
+                model.EditProduto(u);
+            }
+            
             CarregarGrid();
             clean();
 
@@ -107,6 +118,18 @@ namespace controlinhoDeEstoquinho
             Model model = new Model();
             DtoProduto u = model.GetProdutosId(id);
 
+            DtoVenda v = model.GetVendaId(id);
+
+            if (v != null)
+            {
+                button4.Enabled = false;
+                error.Text = "Venda pendente de produto";
+            }
+            else
+            {
+                button4.Enabled = true;
+            }
+
             nomeInput.Enabled = true;
             qtdInput.Enabled = true;
             marcaInput.Enabled = true;
@@ -120,8 +143,15 @@ namespace controlinhoDeEstoquinho
 
             button2.Enabled = true;
             button3.Enabled = true;
-            button4.Enabled = true;
+            
 
+        }
+
+        private void back(object sender, EventArgs e)
+        {
+            this.Hide();
+            Inicio f = new Inicio();
+            f.Show();
         }
     }
 }
