@@ -70,36 +70,19 @@ namespace controlinhoDeEstoquinho
                 {
                     u = a;
                 }
-                
-                u.valorvenda = decimal.Parse(valorVendaInput.Text);
-                p.quantidade = p.quantidade - int.Parse(qtdEntradaInput.Text);
+
+                if(valorVendaInput.Text != string.Empty && qtdEntradaInput.Text != string.Empty)
+                {
+                    u.valorvenda = decimal.Parse(valorVendaInput.Text);
+                    p.quantidade = p.quantidade - int.Parse(qtdEntradaInput.Text);
 
 
-                if (a != null)
-                {
-                    if (p.quantidade > int.Parse(qtdEntradaInput.Text))
+                    if (a != null)
                     {
-                        u.quantidade = a.quantidade + int.Parse(qtdEntradaInput.Text);
-                        model.EditVenda(u);
-                        model.EditQtdProduto(p);
-                        clearInput();
-                        searchP();
-                        CarregarGrid();
-                    }
-                    else
-                    {
-                        erro.Text = "quantidade de entrada maior que o limite";
-                    }
-                }
-                else
-                {
-                    if (p != null)
-                    {
-                        if(p.quantidade > int.Parse(qtdEntradaInput.Text))
+                        if (p.quantidade > int.Parse(qtdEntradaInput.Text))
                         {
-                            u.quantidade = int.Parse(qtdEntradaInput.Text);
-                            u.idproduto = int.Parse(IdInput.Text);
-                            model.setVenda(u);
+                            u.quantidade = a.quantidade + int.Parse(qtdEntradaInput.Text);
+                            model.EditVenda(u);
                             model.EditQtdProduto(p);
                             clearInput();
                             searchP();
@@ -109,14 +92,42 @@ namespace controlinhoDeEstoquinho
                         {
                             erro.Text = "quantidade de entrada maior que o limite";
                         }
-                        
                     }
                     else
                     {
-                        erro.Text = "Nenhum produto selecionado";
-                    }
+                        if (p != null)
+                        {
+                            if(p.quantidade > int.Parse(qtdEntradaInput.Text))
+                            {
+                                u.quantidade = int.Parse(qtdEntradaInput.Text);
+                                u.idproduto = int.Parse(IdInput.Text);
+                                model.setVenda(u);
+                                model.EditQtdProduto(p);
+                                clearInput();
+                                searchP();
+                                CarregarGrid();
+                            }
+                            else
+                            {
+                                erro.Text = "quantidade de entrada maior que o limite";
+                            }
+                        
+                        }
+                        else
+                        {
+                            erro.Text = "Nenhum produto selecionado";
+                        }
 
+                    }
                 }
+                else
+                {
+                    erro.Text = "Preencha os campos vazios!";
+                }
+            }
+            else
+            {
+                erro.Text = "Nenhum produto selecionado!";
             }
             
         }
