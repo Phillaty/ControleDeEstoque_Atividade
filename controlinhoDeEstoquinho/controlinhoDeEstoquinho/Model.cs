@@ -95,6 +95,15 @@ namespace controlinhoDeEstoquinho
             return resultado;
         }
 
+        internal DtoVenda GetVendaIdV(int id)
+        {
+            context db = new context();
+
+            var resultado = db.venda.Where(u => u.id == id).FirstOrDefault();
+
+            return resultado;
+        }
+
         internal void EditUsuario(DtoUsuario u)
         {
             context db = new context();
@@ -150,6 +159,14 @@ namespace controlinhoDeEstoquinho
             context db = new context();
             DtoProduto u = db.produto.FirstOrDefault(p => p.id == id);
             db.produto.Remove(u);
+            db.SaveChanges();
+        }
+
+        public void DeletarVenda(int id)
+        {
+            context db = new context();
+            DtoVenda u = db.venda.FirstOrDefault(p => p.id == id);
+            db.venda.Remove(u);
             db.SaveChanges();
         }
     }

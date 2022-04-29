@@ -99,6 +99,7 @@ namespace controlinhoDeEstoquinho
                         {
                             if(p.quantidade > int.Parse(qtdEntradaInput.Text))
                             {
+                                u.nome = p.nome;
                                 u.quantidade = int.Parse(qtdEntradaInput.Text);
                                 u.idproduto = int.Parse(IdInput.Text);
                                 model.setVenda(u);

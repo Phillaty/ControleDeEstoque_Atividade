@@ -49,5 +49,12 @@ namespace controlinhoDeEstoquinho
             this.Hide();
             f.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            formSaida f = new formSaida();
+            this.Hide();
+            f.Show();
+        }
     }
 }
