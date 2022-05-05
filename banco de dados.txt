@@ -1,0 +1,24 @@
+create table produto (
+	id serial primary key,
+	nome varchar(50),
+	quantidade int,
+	marca varchar(50),
+	preco decimal
+)
+
+create table usuario (
+	id serial primary key,
+	login varchar(50),
+	nome varchar(50),
+	senha varchar(50)
+)
+
+create table venda (
+	id serial primary key,
+	idproduto int,
+	nome varchar(50),
+	valorcusto decimal,
+	valorvenda decimal,
+	quantidade int
+	foreign key (idproduto) references produto(id)
+)
