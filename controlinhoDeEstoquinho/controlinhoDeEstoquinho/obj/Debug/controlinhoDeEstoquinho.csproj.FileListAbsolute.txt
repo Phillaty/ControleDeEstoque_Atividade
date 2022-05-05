@@ -124,3 +124,46 @@ D:\Users\gvboas\Downloads\ControleDeEstoque_Atividade-bababuya (1)\ControleDeEst
 D:\Users\gvboas\Downloads\ControleDeEstoque_Atividade-bababuya (1)\ControleDeEstoque_Atividade-bababuya\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.exe
 D:\Users\gvboas\Downloads\ControleDeEstoque_Atividade-bababuya (1)\ControleDeEstoque_Atividade-bababuya\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.pdb
 D:\Users\gvboas\Downloads\ControleDeEstoque_Atividade-bababuya (1)\ControleDeEstoque_Atividade-bababuya\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.formSaida.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\controlinhoDeEstoquinho.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\controlinhoDeEstoquinho.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\controlinhoDeEstoquinho.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\Npgsql.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Buffers.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Memory.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Text.Json.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.ValueTuple.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\Npgsql.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\Npgsql.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Buffers.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Memory.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Text.Json.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\bin\Debug\System.ValueTuple.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.csproj.AssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.csproj.SuggestedBindingRedirects.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.formEntrada.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.formProduto.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.formSaida.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.formUsuario.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.Inicio.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.Properties.Resources.resources
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.csproj.GenerateResource.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.csproj.CopyComplete
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\facul\ControleDeEstoque_Atividade\controlinhoDeEstoquinho\controlinhoDeEstoquinho\obj\Debug\controlinhoDeEstoquinho.pdb

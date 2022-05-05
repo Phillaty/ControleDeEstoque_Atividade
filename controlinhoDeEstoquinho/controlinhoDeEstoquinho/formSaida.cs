@@ -41,6 +41,14 @@ namespace controlinhoDeEstoquinho
             restoIn.Text = string.Empty;
         }
 
+        private void clearParcial()
+        {
+            qtdRetIn.Text = string.Empty;
+            nomeIn.Text = string.Empty;
+            precoIn.Text = string.Empty;
+            restoIn.Text = string.Empty;
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -115,7 +123,7 @@ namespace controlinhoDeEstoquinho
                 }
                 else
                 {
-                    clear();
+                    clearParcial();
                 }
 
             }
@@ -135,6 +143,26 @@ namespace controlinhoDeEstoquinho
             this.Hide();
             Inicio f = new Inicio();
             f.Show();
+        }
+
+        private void gridDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int id = (int)dataGridView1.CurrentRow.Cells[0].Value;
+
+            Model model = new Model();
+
+            DtoVenda v = model.GetVendaIdV(id);
+
+
+            if(v != null)
+            {
+                idIn.Text = v.id.ToString();
+            }
+            else
+            {
+                error.Text = "Erro...";
+            }
+            
         }
     }
 }

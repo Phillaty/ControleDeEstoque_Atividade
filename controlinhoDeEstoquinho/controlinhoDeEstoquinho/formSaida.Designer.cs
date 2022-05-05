@@ -45,6 +45,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.error = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.restoIn = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -55,7 +56,6 @@
             this.qtdRetIn = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.idIn = new System.Windows.Forms.TextBox();
-            this.error = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -204,6 +204,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(800, 119);
             this.dataGridView1.TabIndex = 28;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridDoubleClick);
             // 
             // label1
             // 
@@ -241,6 +242,15 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(800, 450);
             this.panel3.TabIndex = 29;
+            // 
+            // error
+            // 
+            this.error.AutoSize = true;
+            this.error.ForeColor = System.Drawing.Color.Red;
+            this.error.Location = new System.Drawing.Point(12, 315);
+            this.error.Name = "error";
+            this.error.Size = new System.Drawing.Size(0, 13);
+            this.error.TabIndex = 37;
             // 
             // label10
             // 
@@ -322,15 +332,6 @@
             this.idIn.Size = new System.Drawing.Size(238, 20);
             this.idIn.TabIndex = 27;
             this.idIn.TextChanged += new System.EventHandler(this.pickpickpick);
-            // 
-            // error
-            // 
-            this.error.AutoSize = true;
-            this.error.ForeColor = System.Drawing.Color.Red;
-            this.error.Location = new System.Drawing.Point(12, 315);
-            this.error.Name = "error";
-            this.error.Size = new System.Drawing.Size(0, 13);
-            this.error.TabIndex = 37;
             // 
             // formSaida
             // 
