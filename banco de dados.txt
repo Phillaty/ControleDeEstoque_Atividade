@@ -1,3 +1,5 @@
+Nome do db: DB
+
 create table produto (
 	id serial primary key,
 	nome varchar(50),
